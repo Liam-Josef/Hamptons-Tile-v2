@@ -13,15 +13,6 @@ class Lead extends Model
 
     protected $guarded = [];
 
-    public static function boot() {
-
-        parent::boot();
-
-        static::created(function ($item) {
-
-            $adminEmail = "liam.dmgurus@gmail.com";
-            Mail::to($adminEmail)->send(new ContactMail($item));
-        });
-    }
+    
 
 }
