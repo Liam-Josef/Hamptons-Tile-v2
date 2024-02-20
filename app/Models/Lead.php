@@ -13,6 +13,6 @@ class Lead extends Model
 
     protected $guarded = [];
 
-    
+
 
 }
