@@ -5,12 +5,13 @@ namespace App\Http\Controllers;
 use App\Models\Lead;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Mail;
 
 class LeadController extends Controller
 {
 
-    public function store() {
-        request()->validate([
+    public function store(Request $request) {
+        $this->validate($request, [
             'name' => ['required'],
             'email' => ['required'],
         ]);
@@ -28,8 +29,17 @@ class LeadController extends Controller
             'how_heard' => Str::ucfirst(request('how_heard')),
         ]);
 
-        return redirect()->back()
-            ->with(['success' => 'Thank you for contact us. we will contact you shortly.']);
+        Mail::send('email', [
+            'name' => $request->get('name'),
+            'email' => $request->get('email'),
+            'message' => $request->get('message') ],
+            function ($message) {
+                $message->from('contact@hamptonstileandgrout.com');
+                $message->to('liam.dmgurus@gmail.com', 'LJK')
+                    ->subject('Hamptons Tile & Grout Contact Form Submission');
+            });
+
+        return back()->with('success', 'Thanks for contacting me, I will get back to you soon!');
     }
 
 }
