@@ -23,8 +23,8 @@ return new class extends Migration
             $table->string('zip')->nullable();
             $table->string('phone')->nullable();
             $table->string('email')->nullable();
-            $table->text('message')->nullable();
-            $table->boolean('used_before')->nullable();
+            $table->string('message')->nullable();
+            $table->string('used_before')->nullable();
             $table->string('how_heard')->nullable();
             $table->timestamps();
         });
