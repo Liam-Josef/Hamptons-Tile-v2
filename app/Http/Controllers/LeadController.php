@@ -15,19 +15,21 @@ class LeadController extends Controller
             'name' => ['required'],
             'email' => ['required'],
         ]);
-        Lead::create([
-            'name' => Str::ucfirst(request('name')),
-            'email' => request('email'),
-            'phone' => request('phone'),
-            'address_1' => request('address_1'),
-            'address_2' => request('address_2'),
-            'city' => request('city'),
-            'state' => request('state'),
-            'zip' => request('zip'),
-            'message' => request('message'),
-            'used_before' => request('used_before'),
-            'how_heard' => request('how_heard'),
-        ]);
+
+        $request = new Lead();
+        $request->name = Str::ucfirst(request('name'));
+        $request->email = request('email');
+        $request->phone = request('phone');
+        $request->address_1 = request('address_1');
+        $request->address_2 = request('address_2');
+        $request->city = request('city');
+        $request->state = request('state');
+        $request->zip = request('zip');
+        $request->message = request('message');
+        $request->how_heard = request('how_heard');
+        $request->used_before = request('used_before');
+        $request->save();
+        
 
         Mail::send('email', [
             'name' => $request->get('name'),
