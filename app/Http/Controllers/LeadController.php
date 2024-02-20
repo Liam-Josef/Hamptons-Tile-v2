@@ -32,6 +32,7 @@ class LeadController extends Controller
         Mail::send('email', [
             'name' => $request->get('name'),
             'email' => $request->get('email'),
+            'phone' => $request->get('phone'),
             'message' => $request->get('message') ],
             function ($message) {
                 $message->from('contact@hamptonstileandgrout.com');
