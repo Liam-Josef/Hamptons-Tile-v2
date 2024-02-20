@@ -17,16 +17,16 @@ class LeadController extends Controller
         ]);
         Lead::create([
             'name' => Str::ucfirst(request('name')),
-            'email' => Str::ucfirst(request('email')),
-            'phone' => Str::ucfirst(request('phone')),
-            'address_1' => Str::ucfirst(request('address_1')),
-            'address_2' => Str::ucfirst(request('address_2')),
-            'city' => Str::ucfirst(request('city')),
-            'state' => Str::ucfirst(request('state')),
-            'zip' => Str::ucfirst(request('zip')),
-            'message' => Str::ucfirst(request('message')),
-            'used_before' => Str::ucfirst(request('used_before')),
-            'how_heard' => Str::ucfirst(request('how_heard')),
+            'email' => request('email'),
+            'phone' => request('phone'),
+            'address_1' => request('address_1'),
+            'address_2' => request('address_2'),
+            'city' => request('city'),
+            'state' => request('state'),
+            'zip' => request('zip'),
+            'message' => request('message'),
+            'used_before' => request('used_before'),
+            'how_heard' => request('how_heard'),
         ]);
 
         Mail::send('email', [
