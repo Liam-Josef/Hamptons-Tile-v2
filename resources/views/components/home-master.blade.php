@@ -30,6 +30,28 @@
     <link href="{{asset('storage/index_htm_files/highslide.css')}}" rel="stylesheet" /><!--[if lt IE 7]>
     <link rel="stylesheet" href="{{asset('storage/index_htm_files/highslide-ie6.css')}}" /><![endif]-->
     <script src="{{asset('storage/index_htm_files/highslide.js')}}"></script>
+    <style type="text/css">
+        @media screen and (min-width: 790px) {#xr_xr {top:0px;}}
+        @media screen and (max-width: 789px) {#xr_xr {top:0px;}}
+        html, body{
+            overflow: auto;
+            position: relative;
+        }
+
+        #xr_xr {
+            width: 100%;
+            height: 200%;
+            overflow-y: visible;
+            position: absolute;
+        }
+        #overlay {
+            z-index: 11111;
+        }
+
+        #overlay2 {
+            z-index: 11111;
+        }
+    </style>
     <link href="{{asset('storage/index_htm_files/xr_main.css')}}" rel="stylesheet" />
     <link href="{{asset('storage/index_htm_files/custom_styles.css')}}" rel="stylesheet" />
     <link href="{{asset('storage/index_htm_files/xr_text.css')}}" rel="stylesheet" />
@@ -45,18 +67,7 @@
     <script> var xr_multivar=1;xr_ios_ini2();</script>
     <script src="{{asset('storage/index_htm_files/jquery.js')}}"></script>
     <link href="{{asset('storage/index_htm_files/ani.css')}}" rel="stylesheet" />
-    <style type="text/css">
-        @media screen and (min-width: 790px) {#xr_xr {top:0px;}}
-        @media screen and (max-width: 789px) {#xr_xr {top:0px;}}
 
-        #overlay {
-            z-index: 11111;
-        }
-
-        #overlay2 {
-            z-index: 11111;
-        }
-    </style>
     <link href="{{asset('storage/engine1/style.css')}}" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="{{asset('storage/engine1/jquery.js')}}"></script>
 {{--    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5b0839d827d17e001197486f&product=sticky-share-buttons' async='async'></script>--}}
@@ -71,13 +82,16 @@
     <div class="xr_ap" id="xr_xrii"  style="width: 100%; height: 100%; min-width: 1060px; min-height: 5360px; top:0%; left:0%; overflow:hidden;">
         @yield('xrap')
 
-    {{--    <x-header.home></x-header.home>--}}
 
-        @yield('content')
 
+        <div id="scroll_div">
+            @yield('content')
+        </div>
+
+        @yield('xrap_mvp')
     </div>
 
-    @yield('xrap-mvp')
+
 
 
 

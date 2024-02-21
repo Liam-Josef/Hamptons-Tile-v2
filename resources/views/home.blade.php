@@ -1,15 +1,13 @@
 <x-home-master>
     @section('styles')
         <style type="text/css">
-            @media screen and (min-width: 790px) {#xr_xr {top:0px;}}
-            @media screen and (max-width: 789px) {#xr_xr {top:0px;}}
-
-            #overlay {
-                z-index: 11111;
+            @media screen and (max-width: 790px) {
+                html, body{
+                    height: 100vh;
+                }
             }
-
-            #overlay2 {
-                z-index: 11111;
+            html, body{
+                height: 180%;
             }
         </style>
     @endsection
@@ -513,8 +511,8 @@ stats"></a></div></noscript>
     @endsection
 
 
-    @section('xrap-mvp')
-        <div class="xr_ap  xr_mvp_1 " style="top:0px; left:0px; width:0px; height:0px; text-align:left;">
+    @section('xrap_mvp')
+        <div class="xr_ap xr_mvp_1" style="top:0px; left:0px; width:0px; height:0px; text-align:left;">
             <div class="xr_ap xr_ac xr_stickie" id="xr_xpxr_2" style="position:fixed;right:0px;top:295px;width:36px;height:75px; visibility: hidden; display: none;">
                 <a href="javascript:xr_top();" onclick="return(xr_nn());">
                     <img class="xr_ap" src="{{asset('storage/index_htm_files/10238.png')}}" alt="" title="" onmousemove="xr_mo(this,10,event)" style="left:0px;top:0px;width:36px;height:75px;"/>
@@ -566,6 +564,7 @@ stats"></a></div></noscript>
 
         }
          </script>
+
 
     @endsection
 </x-home-master>
