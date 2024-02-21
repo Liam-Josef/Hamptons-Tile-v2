@@ -30,13 +30,13 @@ class LeadController extends Controller
         $request->used_before = request('used_before');
         $request->save();
 
-//        'name' => $request->get('name'),
 
         Mail::send('email', [
-            'name' => Str::ucfirst(request('name')),
-            'email' =>  request('email'),
-            'phone' => request('phone'),
-            'comment' => request('message') ],
+            'name' => $request->get('name'),
+            'email' => $request->get('email'),
+            'phone' => $request->get('phone'),
+            'how_heard' => $request->get('how_heard'),
+            'comment' => $request->get('message') ],
             function ($message) {
                 $message->from('contact@hamptonstileandgrout.com');
                 $message->to('liam.dmgurus@gmail.com', 'LJK')

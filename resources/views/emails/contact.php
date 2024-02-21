@@ -9,4 +9,4 @@
 <strong>Message: </strong>{{ $data->message }} <br><br>
 <strong>Heard from: </strong>{{ $data->how_heard }} <br><br>
 
-Thank you
+
