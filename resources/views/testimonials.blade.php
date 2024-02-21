@@ -20,7 +20,16 @@
 
 
     @section('styles')
-
+            <style type="text/css">
+                @media screen and (max-width: 790px) {
+                    html, body{
+                        height: 100vh;
+                    }
+                }
+                html, body{
+                    height: 200%;
+                }
+            </style>
     @endsection
 
 
@@ -585,7 +594,7 @@ stats"></a></div></noscript>
     @endsection
 
 
-    @section('xrap-mvp')
+    @section('xrap_mvp')
         <div class="xr_ap  xr_mvp_5 " style="top:0px; left:0px; width:0px; height:0px; text-align:left;">
             <div class="xr_ap xr_ac xr_stickie" id="xr_xpxr_34" style="position:fixed;right:0px;top:295px;width:36px;height:75px; visibility: hidden; display: none;">
                 <a href="javascript:xr_top();" onclick="return(xr_nn());">

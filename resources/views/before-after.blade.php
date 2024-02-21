@@ -20,7 +20,16 @@
 
 
     @section('styles')
-
+            <style type="text/css">
+                @media screen and (max-width: 790px) {
+                    html, body{
+                        height: 100vh;
+                    }
+                }
+                html, body{
+                    height: 235%;
+                }
+            </style>
     @endsection
 
     @section('xrap')
