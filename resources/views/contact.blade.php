@@ -370,7 +370,7 @@ stats"></a></div></noscript>
                         <div class="xr_noreset " style="position: absolute; left:76px;top:745px;width:369px;height:565px;">
                             <form method="POST" action="{{route('lead.store')}}" enctype="multipart/form-data">
                                 @csrf
-                                @method('PUT')
+                                @method('POST')
 
                                 <input type="hidden" name="subject" value="Tile_&_Grout_Restoration_Inquiry">
                                 <input type="hidden" name="redirect" value="success.htm">
