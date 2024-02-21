@@ -45,7 +45,7 @@ class LeadController extends Controller
             'comment' => request('message') ],
             function ($message) {
                 $message->from('contact@hamptonstileandgrout.com');
-                $message->to('liam.dmgurus@gmail.com', 'LJK')
+                $message->to('hamptonrestoration@gmail.com', 'Matthew')
                     ->subject('Hamptons Tile & Grout Contact Form Submission');
             });
 
