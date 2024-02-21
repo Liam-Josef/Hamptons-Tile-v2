@@ -35,6 +35,12 @@ class LeadController extends Controller
             'name' => Str::ucfirst(request('name')),
             'email' => request('email'),
             'phone' => request('phone'),
+            'address_1' => request('address_1'),
+            'address_2' => request('address_2'),
+            'city' => request('city'),
+            'state' => request('state'),
+            'zip' => request('zip'),
+            'used_before' => request('used_before'),
             'how_heard' => request('how_heard'),
             'comment' => request('message') ],
             function ($message) {
