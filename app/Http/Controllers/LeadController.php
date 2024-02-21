@@ -32,11 +32,11 @@ class LeadController extends Controller
 
 
         Mail::send('email', [
-            'name' => $request->get('name'),
-            'email' => $request->get('email'),
-            'phone' => $request->get('phone'),
-            'how_heard' => $request->get('how_heard'),
-            'comment' => $request->get('message') ],
+            'name' => Str::ucfirst(request('name')),
+            'email' => request('email'),
+            'phone' => request('phone'),
+            'how_heard' => request('how_heard'),
+            'comment' => request('message') ],
             function ($message) {
                 $message->from('contact@hamptonstileandgrout.com');
                 $message->to('liam.dmgurus@gmail.com', 'LJK')
