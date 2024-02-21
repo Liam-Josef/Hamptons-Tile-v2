@@ -25,6 +25,7 @@ Auth::routes();
     Route::get('/testimonials', [App\Http\Controllers\HomeController::class, 'testimonials'])->name('testimonials');
     Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact');
     Route::post('/contact-form-submission', [App\Http\Controllers\LeadController::class, 'store'])->name('lead.store');
+    Route::get('/success', [App\Http\Controllers\HomeController::class, 'success'])->name('success');
 
 
 
