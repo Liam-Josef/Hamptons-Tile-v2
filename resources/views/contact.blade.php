@@ -404,9 +404,9 @@ stats"></a></div></noscript>
                                     <BR><B>
 
                                         HAVE YOU USED HAMPTON'S TILE & GROUT<br>BEFORE?
-                                        <input NAME="used_before" VALUE="YES" TYPE="radio" tabindex="11" checked>
+                                        <input NAME="used_before" VALUE="YES" TYPE="radio" tabindex="11">
                                         YES
-                                        <input NAME="used_before" VALUE="NO" TYPE="radio">
+                                        <input NAME="used_before" VALUE="NO" TYPE="radio" checked>
                                         NO
 
                                         <br>
