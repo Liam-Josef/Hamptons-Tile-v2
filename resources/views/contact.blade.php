@@ -18,9 +18,17 @@
     @endsection
     @endforeach
 
-
-    @section('styles')
-
+0    @section('styles')
+            <style type="text/css">
+                @media screen and (max-width: 790px) {
+                    html, body{
+                        height: 100vh;
+                    }
+                }
+                html, body{
+                    height: 100%;
+                }
+            </style>
     @endsection
 
     @section('xrap')
@@ -478,7 +486,7 @@ stats"></a></div></noscript>
                             </div>
                         </div>
                         <div class="xr_txt Normal_text xr_s8" style="position: absolute; left:438px; top:126px; width:16px; height:10px;">
-                            <span class="xr_tl Normal_text xr_s8" style="top: -8.38px;"><a href="index.htm" onclick="return(xr_nn());" onmousemove="xr_mo(this,71)" ><span class="Normal_text xr_s8" style="">LLC</span></a></span>
+                            <span class="xr_tl Normal_text xr_s8" style="top: -8.38px;"><a href="{{route('index')}}" onclick="return(xr_nn());" onmousemove="xr_mo(this,71)" ><span class="Normal_text xr_s8" style="">LLC</span></a></span>
                         </div>
                         <div class="xr_txt Normal_text xr_s6" style="position: absolute; left:187px; top:194px; width:145px; height:10px;">
                             <span class="xr_tl Normal_text xr_s6" style="top: -9.79px;">Licensed     Bonded     Insured</span>
