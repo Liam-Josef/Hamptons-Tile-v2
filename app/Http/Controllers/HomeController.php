@@ -55,6 +55,14 @@ class HomeController extends Controller
             'feeds' => $feeds
         ]);
     }
+    public function success() {
+        $websites = Website::where('id', '=', '1')->get();
+        $feeds = Feed::all();
+        return view('success', [
+            'websites' => $websites,
+            'feeds' => $feeds
+        ]);
+    }
 
 
 

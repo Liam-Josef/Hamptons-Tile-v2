@@ -59,35 +59,38 @@
     </style>
     <link href="{{asset('storage/engine1/style.css')}}" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="{{asset('storage/engine1/jquery.js')}}"></script>
-    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5b0839d827d17e001197486f&product=sticky-share-buttons' async='async'></script>
+{{--    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5b0839d827d17e001197486f&product=sticky-share-buttons' async='async'></script>--}}
 {{--    NEW--}}
-{{--    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5b0839d827d17e001197486f&product=sticky-share-buttons' async='async'></script> --}}
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5b0839d827d17e001197486f&product=sticky-share-buttons' async='async'></script>
 
+    @yield('scripts')
 </head>
 
 <body class="xr_bgb0">
 
-<div class="xr_ap" id="xr_xrii"  style="width: 100%; height: 100%; min-width: 1060px; min-height: 5360px; top:0%; left:0%; overflow:hidden;">
-    @yield('xrap')
+    <div class="xr_ap" id="xr_xrii"  style="width: 100%; height: 100%; min-width: 1060px; min-height: 5360px; top:0%; left:0%; overflow:hidden;">
+        @yield('xrap')
 
-{{--    <x-header.home></x-header.home>--}}
+    {{--    <x-header.home></x-header.home>--}}
 
-    @yield('content')
-</div>
+        @yield('content')
+
+    </div>
+
+    @yield('xrap-mvp')
 
 
 
 
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
-<!-- Bootstrap core JavaScript -->
-<script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
-<script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="{{asset('js/zetemple.js')}}"></script>
 
-<!-- Core plugin JavaScript-->
-<script src="{{asset('js/zetemple.js')}}"></script>
 
-@yield('scripts')
 
 </body>
 
