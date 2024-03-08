@@ -72,7 +72,7 @@
     <script type="text/javascript" src="{{asset('storage/engine1/jquery.js')}}"></script>
 {{--    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5b0839d827d17e001197486f&product=sticky-share-buttons' async='async'></script>--}}
 {{--    NEW--}}
-    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5b0839d827d17e001197486f&product=sticky-share-buttons' async='async'></script>
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=65d29c9da382ae001b0466d9&product=sticky-share-buttons' async='async'></script>
 
     @yield('scripts')
 </head>
