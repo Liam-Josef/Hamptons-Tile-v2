@@ -79,7 +79,6 @@
 
 <body class="xr_bgb0">
 <div class="sharethis-sticky-share-buttons"
-     data-url="https://hamptonstileangrout.com"
      data-title="Hampton's Tile & Grout"
      data-description="Our goal is to restore existing tile installations through renovation and help maintain newer tile installations in pristine condition for a significantly longer life. We are a locally owned and operated licensed contractor servicing homeowners, hotels, restaurants, apartments and commercial properties throughout Oregon and Washington."
      data-image="https://hamptonstileandgrout.com/storage/index_htm_files/tile_&_grout_cleaning_portland-1.png">
