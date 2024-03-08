@@ -539,13 +539,13 @@ stats"></a></div></noscript>
         {
           "@context": "http://www.schema.org",
           "@type": "LocalBusiness",
-          "image": "http://www.hamptonstileandgrout.com/logo_3.jpg",
+          "image": "https://hamptonstileandgrout.com/storage/index_htm_files/tile_&_grout_cleaning_portland-1.png",
           "name": "Hampton's Tile & Grout",
           "openingHours": "Mo, Tu, We, Th, Fr 09:00-17:00",
           "priceRange": "$",
            "telephone": "(971) 204-2770",
-          "url": "http://www.hamptonstileandgrout.com",
-          "logo": "http://www.hamptonstileandgrout.com/logo_3.jpg",
+          "url": "https://hamptonstileandgrout.com",
+          "logo": "https://hamptonstileandgrout.com/storage/index_htm_files/tile_&_grout_cleaning_portland-1.png",
           "description": "Our goal is to restore existing tile installations through renovation and help maintain newer tile installations in pristine condition for a significantly longer life. We are a locally owned and operated licensed contractor servicing homeowners, hotels, restaurants, apartments and commercial properties throughout Oregon and Washington.",
           "address": {
             "@type": "PostalAddress",
