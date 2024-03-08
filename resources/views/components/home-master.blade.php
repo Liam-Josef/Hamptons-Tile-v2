@@ -78,7 +78,7 @@
 </head>
 
 <body class="xr_bgb0">
-<div class="sharethis-sticky-share-buttons" data-image="{{asset('storage/index_htm_files/tile_&_grout_cleaning_portland-1.jpg')}}"></div>
+<div class="sharethis-sticky-share-buttons" data-image="{{asset('storage/index_htm_files/tile_&_grout_cleaning_portland-1.png')}}"></div>
 
     <div class="xr_ap" id="xr_xrii"  style="width: 100%; height: 100%; min-width: 1060px; min-height: 5360px; top:0%; left:0%; overflow:hidden;">
         @yield('xrap')
