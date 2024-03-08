@@ -537,6 +537,38 @@ stats"></a></div></noscript>
 
         <!--[if lt IE 7]><script src="{{asset('storage/index_htm_files/png.js')}}"></script><![endif]-->
             <!--[if IE]><script>xr_aeh()</script><![endif]--><!--[if !IE]>--><script>xr_htm();repMobFonts();window.addEventListener('load', xr_aeh, false);</script><!--<![endif]-->
+            <script type='application/ld+json'>
+             {
+              "@context": "http://www.schema.org",
+              "@type": "LocalBusiness",
+              "image": "https://hamptonstileandgrout.com/storage/index_htm_files/tile_&_grout_cleaning_portland-1.png",
+              "name": "Hampton's Tile & Grout",
+              "openingHours": "Mo, Tu, We, Th, Fr 09:00-17:00",
+              "priceRange": "$",
+               "telephone": "(971) 204-2770",
+              "url": "https://hamptonstileandgrout.com",
+              "logo": "https://hamptonstileandgrout.com/storage/index_htm_files/tile_&_grout_cleaning_portland-1.png",
+              "description": "Our goal is to restore existing tile installations through renovation and help maintain newer tile installations in pristine condition for a significantly longer life. We are a locally owned and operated licensed contractor servicing homeowners, hotels, restaurants, apartments and commercial properties throughout Oregon and Washington.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Gladstone",
+                "addressRegion": "OR",
+                "addressCountry": "United States"
+              },
+                "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5",
+                "reviewCount": "42"
+              },
+                "contactPoint": [{
+                "@type": "ContactPoint",
+                "telephone": "+1-971-204-2770",
+                "email": "hamptonrestoration@gmail.com",
+                "contactType": "customer service"
+              }]
+
+            }
+             </script>
     @endsection
 
 
