@@ -78,6 +78,7 @@
 </head>
 
 <body class="xr_bgb0">
+<div class="sharethis-inline-share-buttons" data-url="https://hamptonstileangrout.com" data-title="Hampton's Tile & Grout" data-image="{{asset('storage/index_htm_files/tile_&_grout_cleaning_portland-1.jpg')}}"></div>
 
     <div class="xr_ap" id="xr_xrii"  style="width: 100%; height: 100%; min-width: 1060px; min-height: 5360px; top:0%; left:0%; overflow:hidden;">
         @yield('xrap')
