@@ -21,7 +21,7 @@
     <meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=EDGE"/>
     <meta name="Generator" content="Xara HTML filter v.9.9.1.0"/>
     <meta name="XAR Files" content="{{asset('storage/index_htm_files/xr_files.txt')}}"/>
-    <title>TILE &amp; GROUT CLEANING &amp; RESTORATION BEFORE &amp; AFTER | PORTLAND OR</title>
+    <title>z TILE &amp; GROUT CLEANING &amp; RESTORATION BEFORE &amp; AFTER | PORTLAND OR</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="vancouver, portland, oregon, washington, tile, grout, restoration, cleaning, bathrooms, kitchens, showers, floors, walls, back splashes, tub surrounds, counters, fireplaces, grouting, re-grouting, caulking, re-caulking, grout, sealing, marble, granite, travertine, 97231, 97229, 97230, 97060, 97124, 97006, 97233, 97030, 97007, 97219, 97086, 97123, 97224, 97080, 97062, 97068, 97045, 98682, 98664, 98682, 98684, 98683, 98607, 98671, 98662, 98661, 98686, 98685, 98665, 98663, 98660, 98604, 98629, 98674"/>
     <meta name="description" content="Hampton’s Tile &amp; Grout - Our goal is to restore existing installations through renovation and help maintain newer installations in pristine condition for a significantly longer life. We are a locally owned and operated licensed contractor servicing homeowners, hotels, restaurants, apartments and commercial properties throughout Oregon and Washington."/>
