@@ -243,7 +243,7 @@
                         <img class="xr_ap" src="{{asset('storage/index_htm_files/8721.png')}}" alt="" title="" style="left:868px;top:99px;width:4px;height:4px;"/>
                         <img class="xr_ap" src="{{asset('storage/index_htm_files/8722.png')}}" alt="" title="" style="left:922px;top:99px;width:4px;height:4px;"/>
                         <img class="xr_ap" id="LOGO:323" src="{{asset('storage/index_htm_files/tile_&_grout_cleaning_portland-2.png')}}" alt="&amp; RESTORATION" title="TILE INSTALLATION &amp; CLEANING &amp; RESTORATION | PORTLAND | VANCOUVER" style="left:264px;top:145px;width:168px;height:19px;"/>
-                        <img class="xr_ap" src="{{asset('storage/index_htm_files/tile_&_grout_cleaning_portland-3.png')}}" alt="OVER 40 FIVE STAR GOOGLE REVIEWS" title="TILE &amp; GROUT CLEANING &amp; INSTALLATION PORTLAND VANCOUVER" style="left:604px;top:78px;width:122px;height:49px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/tile_&_grout_cleaning_portland-3.png')}}" alt="OVER 80 FIVE STAR GOOGLE REVIEWS" title="TILE &amp; GROUT CLEANING &amp; INSTALLATION PORTLAND VANCOUVER" style="left:604px;top:78px;width:122px;height:49px;"/>
                         <div id="xr_xo0" class="xr_ap" style="left:0; top:0; width:1060px; height:100px; visibility:hidden; z-index:3;">
                             <a href="" onclick="return(false);" onmousedown="xr_ppir(this);">
                             </a>
@@ -500,7 +500,7 @@ stats"></a></div></noscript>
                                 </div>
                             </div>
                         </div>
-                        <img class="xr_ap" src="{{asset('storage/index_htm_files/tile_&_grout_cleaning_portland-9.png')}}" alt="OVER 40 FIVE STAR GOOGLE REVIEWS" title="" style="left:199px;top:249px;width:144px;height:71px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/tile_&_grout_cleaning_portland-9.png')}}" alt="OVER 80 FIVE STAR GOOGLE REVIEWS" title="" style="left:199px;top:249px;width:144px;height:71px;"/>
                         <div id="xr_xo10" class="xr_ap" style="left:0; top:0; width:520px; height:100px; visibility:hidden; z-index:3;">
                             <a href="" onclick="return(false);" onmousedown="xr_ppir(this);">
                             </a>
