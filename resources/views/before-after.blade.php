@@ -298,14 +298,14 @@ stats"></a></div></noscript>
                         <div class="xr_trigo_xr_ce3" style="position:absolute;left:490px;top:959px;width:59px;height:2383px;z-index:-1;"></div>
                         <span class="xr_ar" id="Xxr_v4_top_trigger" style="left:490px;top:959px;width:59px;height:2383px; background-color: #000000;-moz-opacity: 0.01;-khtml-opacity: 0.01;opacity: 0.01;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=1);"></span>
 
-                        <img class="xr_ap" src="{{asset('storage/index_htm_files/10684.png')}}" alt="" title="" style="left:9px;top:14px;width:502px;height:3093px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/10684.png')}}" alt="" title="" style="left:9px;top:14px;width:502px;height:3700px;"/>
                         <img class="xr_ap" src="{{asset('storage/index_htm_files/8383.jpg')}}" alt="" title="" style="left:20px;top:25px;width:480px;height:151px;"/>
                         <span class="xr_ar" style="left:20px;top:25px;width:480px;height:151px; background-color: #000000;-moz-opacity: 0.71;-khtml-opacity: 0.71;opacity: 0.71;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=71);"></span>
                         <img class="xr_ap" src="{{asset('storage/index_htm_files/8384.jpg')}}" alt="" title="TILE &amp; GROUT RESTORATION &amp; CLEANING | GROUTING | CAULKING | REPAIR" style="left:20px;top:372px;width:481px;height:22px;"/>
                         <!--[if lt IE 9]>
                         <img class="xr_ap" src="{{asset('storage/index_htm_files/10352.png')}}" alt="" title="" style="left:28px;top:419px;width:470px;height:2660px;"/>
                         <![endif]-->
-                        <span class="xr_ar" style="left:35px;top:424px;width:450px;height:2640px; box-shadow: 3px 4px 9px rgba(0,0,0,0.25); background-color: #FFFFFF;"></span>
+                        <span class="xr_ar" style="left:35px;top:424px;width:450px;height:3250px; box-shadow: 3px 4px 9px rgba(0,0,0,0.25); background-color: #FFFFFF;"></span>
                         <img class="xr_ap" id="Xxr_v4_slide1" src="{{asset('storage/index_htm_files/8386.jpg')}}" alt="" title="" style="left:20px;top:200px;width:480px;height:174px;"/>
                         <div class="xr_txt Normal_text xr_s0" style="position: absolute; left:260px; top:460px; width:124px; height:10px;" title="TILE &amp; GROUT RESTORATION &amp; CLEANING | PORTLAND OR | VANCOUVER WA">
                             <span class="xr_tc Normal_text xr_s0" style="left: -69.06px; top: -16.86px; width: 138px;">Before &amp; After</span>
@@ -338,11 +338,13 @@ stats"></a></div></noscript>
                             <img class="xr_ap" src="{{asset('storage/index_htm_files/8755.png')}}" alt="" title="CALL NOW FOR A FREE ESTIMATE" onmousemove="xr_mo(this,39,event)" style="left:52px;top:401px;width:146px;height:14px;"/>
                         </a>
                         <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-1.jpg')}}" alt="" title="" style="left:58px;top:493px;width:411px;height:274px;"/>
-                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-2.jpg')}}" alt="" title="" style="left:58px;top:493px;width:411px;height:274px;"/>
-                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-3.jpg')}}" alt="" title="" style="left:58px;top:770px;width:411px;height:275px;"/>
-                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-4.jpg')}}" alt="" title="" style="left:58px;top:1327px;width:411px;height:274px;"/>
-                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-5.jpg')}}" alt="" title="" style="left:58px;top:1604px;width:411px;height:275px;"/>
-                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-6.jpg')}}" alt="" title="" style="left:58px;top:1882px;width:411px;height:275px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-2.jpg')}}" alt="" title="" style="left:58px;top:770px;width:411px;height:274px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-3.jpg')}}" alt="" title="" style="left:58px;top:1327px;width:411px;height:275px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-4.jpg')}}" alt="" title="" style="left:58px;top:1604px;width:411px;height:274px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-5.jpg')}}" alt="" title="" style="left:58px;top:1882px;width:411px;height:275px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-6.jpg')}}" alt="" title="" style="left:58px;top:2439px;width:411px;height:275px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-7.jpg')}}" alt="" title="" style="left:58px;top:2991px;width:411px;height:275px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-8.jpg')}}" alt="" title="" style="left:58px;top:3293px;width:411px;height:275px;"/>
                         <div class="xr_noreset " style="position: absolute; left:357px;top:3180px;width:63px;height:15px;">
                             <script type="text/javascript">
                                 var sc_project=11114851;
