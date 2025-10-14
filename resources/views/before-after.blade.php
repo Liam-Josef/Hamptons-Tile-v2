@@ -57,14 +57,14 @@
                         <div class="xr_trigo_xr_ce2" style="position:absolute;left:1010px;top:1016px;width:105px;height:4344px;z-index:-1;"></div>
                         <span class="xr_ar" id="top_trigger" style="left:1010px;top:1016px;width:105px;height:4344px; background-color: #FFFFFF;-moz-opacity: 0.01;-khtml-opacity: 0.01;opacity: 0.01;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=1);"></span>
 
-                        <img class="xr_ap" src="{{asset('storage/index_htm_files/9577.png')}}" alt="" title="" style="left:17px;top:-8px;width:1026px;height:5143px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/9577.png')}}" alt="" title="" style="left:17px;top:-8px;width:1026px;height:8000px;"/>
                         <img class="xr_ap" src="{{asset('storage/index_htm_files/8341.jpg')}}" alt="" title="" style="left:50px;top:25px;width:960px;height:151px;"/>
                         <img class="xr_ap" src="{{asset('storage/index_htm_files/9646.png')}}" alt="" title="" style="left:50px;top:25px;width:960px;height:151px;"/>
                         <img class="xr_ap" src="{{asset('storage/index_htm_files/tile_&_grout_cleaning_portland.jpg')}}" alt="" title="TILE &amp; GROUT RESTORATION &amp; CLEANING | GROUTING | CAULKING | REPAIR" style="left:50px;top:548px;width:960px;height:22px;"/>
                         <!--[if lt IE 9]>
                         <img class="xr_ap" src="{{asset('storage/index_htm_files/10653.png')}}}" alt="" title="" style="left:71px;top:597px;width:930px;height:4483px;"/>
                         <![endif]-->
-                        <span class="xr_ar" style="left:75px;top:600px;width:912px;height:4465px; box-shadow: 5px 6px 7px rgba(0,0,0,0.25); background-color: #FFFFFF;"></span>
+                        <span class="xr_ar" style="left:75px;top:600px;width:912px;height:7500px; box-shadow: 5px 6px 7px rgba(0,0,0,0.25); background-color: #FFFFFF;"></span>
                         <div class="xr_noreset " id="slide1" style="position: absolute; left:50px;top:200px;width:961px;height:349px;">
                             <div id="wowslider-container1">
                                 <div class="ws_images"><ul>
@@ -90,7 +90,7 @@
                         <img class="xr_ap" src="{{asset('storage/index_htm_files/10579.png')}}" alt="" title="" style="left:752px;top:616px;width:231px;height:764px;"/>
                         <![endif]-->
                         <span class="xr_ar" style="left:755px;top:618px;width:216px;height:749px; box-shadow: 5px 5px 6px rgba(0,0,0,0.25); background-color: #C2976A;"></span>
-                        <div class="xr_txt Normal_text xr_s1" style="position: absolute; left:341px; top:5089px; width:379px; height:10px;">
+                        <div class="xr_txt Normal_text xr_s1" style="position: absolute; left:341px; top:7750px; width:379px; height:10px;">
                             <span class="xr_tl Normal_text xr_s1" style="top: -11.77px;">Copyright © 2023  Hampton’s Tile and Grout - All Rights Reserved</span>
                         </div>
                         <img class="xr_ap" src="{{asset('storage/index_htm_files/tile_installation_portland.png')}}" alt="" title="TILE &amp; GROUT RESTORATION &amp; CLEANING | PORTLAND OR | VANCOUVER WA" style="left:145px;top:651px;width:538px;height:3px;"/>
@@ -112,30 +112,43 @@
                         <div class="xr_txt xr_s1" style="position: absolute; left:389px; top:5013px; width:279px; height:10px;">
                             <span class="xr_tl xr_s1" style="top: -11.77px;"><a href="{{route('index')}}" onclick="return(xr_nn());" onmousemove="xr_mo(this,20)" >HOME </a> | <a href="{{route('before_after')}}" onclick="return(xr_nn());" onmousemove="xr_mo(this,20)" >BEFORE &amp; AFTER</a> | <a href="{{route('testimonials')}}" onclick="return(xr_nn());" onmousemove="xr_mo(this,20)" >TESTIMONIALS</a></span>
                         </div>
-                        <a href="{{asset('index_htm_files/10671.jpg')}}" class="highslide" onmouseover="hs.headingText=''" onclick="return hs.expand(this, { headingText: '', slideshowGroup: 2 } )">
-                            <img class="xr_ap" src="{{asset('storage/index_htm_files/10657.jpg')}}" alt="" title="" onmousemove="xr_mo(this,20,event)" style="left:132px;top:680px;width:568px;height:378px;"/>
-                        </a>
-                        <a href="{{asset('storage/index_htm_files/10672.jpg')}}" class="highslide" onmouseover="hs.headingText=''" onclick="return hs.expand(this, { headingText: '', slideshowGroup: 2 } )">
-                            <img class="xr_ap" src="{{asset('storage/index_htm_files/10658.jpg')}}" alt="" title="" onmousemove="xr_mo(this,20,event)" style="left:132px;top:1065px;width:568px;height:378px;"/>
-                        </a>
-                        <a href="{{asset('storage/index_htm_files/10673.jpg')}}" class="highslide" onmouseover="hs.headingText=''" onclick="return hs.expand(this, { headingText: '', slideshowGroup: 2 } )">
-                            <img class="xr_ap" src="{{asset('storage/index_htm_files/10659.jpg')}}" alt="" title="" onmousemove="xr_mo(this,20,event)" style="left:132px;top:1827px;width:568px;height:379px;"/>
-                        </a>
-                        <a href="{{asset('storage/index_htm_files/10674.jpg')}}" class="highslide" onmouseover="hs.headingText=''" onclick="return hs.expand(this, { headingText: '', slideshowGroup: 2 } )">
-                            <img class="xr_ap" src="{{asset('storage/index_htm_files/10660.jpg')}}" alt="" title="" onmousemove="xr_mo(this,20,event)" style="left:132px;top:2206px;width:568px;height:378px;"/>
-                        </a>
-                        <a href="{{asset('storage/index_htm_files/10675.jpg')}}" class="highslide" onmouseover="hs.headingText=''" onclick="return hs.expand(this, { headingText: '', slideshowGroup: 2 } )">
-                            <img class="xr_ap" src="{{asset('storage/index_htm_files/10661.jpg')}}" alt="" title="" onmousemove="xr_mo(this,20,event)" style="left:132px;top:2585px;width:568px;height:378px;"/>
-                        </a>
-                        <a href="{{asset('storage/index_htm_files/10676.jpg')}}" class="highslide" onmouseover="hs.headingText=''" onclick="return hs.expand(this, { headingText: '', slideshowGroup: 2 } )">
-                            <img class="xr_ap" src="{{asset('storage/index_htm_files/10662.jpg')}}" alt="" title="" onmousemove="xr_mo(this,20,event)" style="left:132px;top:2964px;width:568px;height:378px;"/>
-                        </a>
-                        <a href="{{asset('storage/index_htm_files/10677.jpg')}}" class="highslide" onmouseover="hs.headingText=''" onclick="return hs.expand(this, { headingText: '', slideshowGroup: 2 } )">
-                            <img class="xr_ap" src="{{asset('storage/index_htm_files/10663.jpg')}}" alt="" title="" onmousemove="xr_mo(this,20,event)" style="left:132px;top:3342px;width:568px;height:379px;"/>
-                        </a>
-                        <a href="{{asset('storage/index_htm_files/10678.jpg')}}" class="highslide" onmouseover="hs.headingText=''" onclick="return hs.expand(this, { headingText: '', slideshowGroup: 2 } )">
-                            <img class="xr_ap" src="{{asset('storage/index_htm_files/10664.jpg')}}" alt="" title="" onmousemove="xr_mo(this,20,event)" style="left:132px;top:3719px;width:568px;height:378px;"/>
-                        </a>
+
+
+                        @php
+                            $gallery = [
+                              ['full' => 'b-a-1.jpg', 'thumb' => 'b-a-1.jpg', 'top' => 680,  'h' => 378],
+                              ['full' => 'b-a-2.jpg', 'thumb' => 'b-a-2.jpg', 'top' => 1065,  'h' => 378],
+                              ['full' => 'b-a-3.jpg', 'thumb' => 'b-a-3.jpg', 'top' => 1827,  'h' => 378],
+                              ['full' => 'b-a-4.jpg', 'thumb' => 'b-a-4.jpg', 'top' => 2206,  'h' => 378],
+                              ['full' => 'b-a-5.jpg', 'thumb' => 'b-a-5.jpg', 'top' => 2585,  'h' => 378],
+                              ['full' => 'b-a-6.jpg', 'thumb' => 'b-a-6.jpg', 'top' => 2964,  'h' => 378],
+                              ['full' => 'b-a-7.jpg', 'thumb' => 'b-a-7.jpg', 'top' => 3342,  'h' => 378],
+                              ['full' => 'b-a-8.jpg', 'thumb' => 'b-a-8.jpg', 'top' => 3791,  'h' => 378],
+                              ['full' => '10657.jpg', 'thumb' => '10657.jpg', 'top' => 4426,  'h' => 378],
+                              ['full' => '10658.jpg', 'thumb' => '10658.jpg', 'top' => 4675, 'h' => 378],
+                              ['full' => '10659.jpg', 'thumb' => '10659.jpg', 'top' => 5124, 'h' => 379],
+                              ['full' => '10660.jpg', 'thumb' => '10660.jpg', 'top' => 5569, 'h' => 379],
+                              ['full' => '10661.jpg', 'thumb' => '10661.jpg', 'top' => 6018, 'h' => 379],
+                              ['full' => '10662.jpg', 'thumb' => '10662.jpg', 'top' => 6467, 'h' => 379],
+                              ['full' => '10663.jpg', 'thumb' => '10663.jpg', 'top' => 6912, 'h' => 379],
+                              ['full' => '10664.jpg', 'thumb' => '10664.jpg', 'top' => 7357, 'h' => 379],
+                            ];
+                        @endphp
+
+                        @foreach ($gallery as $g)
+                            <a href="{{ asset('storage/index_htm_files/' . $g['full']) }}"
+                               class="highslide"
+                               onmouseover="hs.headingText=''"
+                               onclick="return hs.expand(this, { headingText: '', slideshowGroup: 2 })">
+                                <img class="xr_ap"
+                                     src="{{ asset('storage/index_htm_files/' . $g['thumb']) }}"
+                                     alt=""
+                                     title=""
+                                     onmousemove="xr_mo(this,20,event)"
+                                     style="left:132px;top:{{ $g['top'] }}px;width:568px;height:{{ $g['h'] }}px;"/>
+                            </a>
+                        @endforeach
+
                         <a href="{{route('index')}}" onclick="return(xr_nn());">
                             <img class="xr_ap" src="{{asset('storage/index_htm_files/8714.png')}}" alt="" title="" onmousemove="xr_mo(this,20,event)" style="left:73px;top:578px;width:50px;height:14px;"/>
                             <img class="xr_ap xr_ro xr_ro0 xr_tt2" src="{{asset('storage/index_htm_files/8724.png')}}" alt="" title="" onmousemove="xr_mo(this,20)" style="left:73px;top:578px;width:50px;height:14px;"/>
@@ -324,11 +337,12 @@ stats"></a></div></noscript>
                         <a href="{{route('contact')}}" onclick="return(xr_nn());">
                             <img class="xr_ap" src="{{asset('storage/index_htm_files/8755.png')}}" alt="" title="CALL NOW FOR A FREE ESTIMATE" onmousemove="xr_mo(this,39,event)" style="left:52px;top:401px;width:146px;height:14px;"/>
                         </a>
-                        <img class="xr_ap" src="{{asset('storage/index_htm_files/10688.jpg')}}" alt="" title="" style="left:58px;top:493px;width:411px;height:274px;"/>
-                        <img class="xr_ap" src="{{asset('storage/index_htm_files/10689.jpg')}}" alt="" title="" style="left:58px;top:770px;width:411px;height:275px;"/>
-                        <img class="xr_ap" src="{{asset('storage/index_htm_files/10690.jpg')}}" alt="" title="" style="left:58px;top:1327px;width:411px;height:274px;"/>
-                        <img class="xr_ap" src="{{asset('storage/index_htm_files/10691.jpg')}}" alt="" title="" style="left:58px;top:1604px;width:411px;height:275px;"/>
-                        <img class="xr_ap" src="{{asset('storage/index_htm_files/10692.jpg')}}" alt="" title="" style="left:58px;top:1882px;width:411px;height:275px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-1.jpg')}}" alt="" title="" style="left:58px;top:493px;width:411px;height:274px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-2.jpg')}}" alt="" title="" style="left:58px;top:493px;width:411px;height:274px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-3.jpg')}}" alt="" title="" style="left:58px;top:770px;width:411px;height:275px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-4.jpg')}}" alt="" title="" style="left:58px;top:1327px;width:411px;height:274px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-5.jpg')}}" alt="" title="" style="left:58px;top:1604px;width:411px;height:275px;"/>
+                        <img class="xr_ap" src="{{asset('storage/index_htm_files/b-a-6.jpg')}}" alt="" title="" style="left:58px;top:1882px;width:411px;height:275px;"/>
                         <div class="xr_noreset " style="position: absolute; left:357px;top:3180px;width:63px;height:15px;">
                             <script type="text/javascript">
                                 var sc_project=11114851;
